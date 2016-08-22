@@ -9,28 +9,36 @@ import org.jointheleague.graphical.robot.Robot;
 public class PentagonCrazy {
 
 	private void makePrettyThings() {
-		// 1. Create a new Robot
+		
+Robot kennith = new Robot("mini");
+kennith.moveTo(400, 400);
+kennith.setSpeed(10);
+kennith.penDown();
+kennith.setPenColor(68, 238, 187);
 
-		// 3. Put the robot's pen down
+Robot bri = new Robot("mini");
+bri.moveTo(550, 275);
+bri.setSpeed(10);
+bri.penDown();
+bri.setPenColor(68, 238, 187);
 
-		// 8. Make the robot go at maximum speed (10)
-
-		// 9. Set the pen to a color that you like for the shape
-
-		// 4. Make a variable for the number of sides you want (can’t test this one)
-
-		// 5. Make a variable for the angle you want the robot to turn. Hint: you can divide in Java using "/". Can’t test until step 6.
-
-		// 7. Do steps #2 to #11, 200 times. When this is done you should see a pentagon.
-
-			// 2. Move the robot 200 pixels
+for (int i = 0; i < 200; i++) {
 	
-			// 10. Make the robot move "i" pixels instead of 200 (don’t need new line of code for this, just change previous one)
 	
-			// 6. Turn the robot the amount in your angle variable
-	
-			// 11. Turn the robot one more degree
+int steph = 5;
+int death = 360/5;
 
+	kennith.move(200);
+	bri.move(i);	
+	kennith.turn(death);
+	bri.turn(death);
+	kennith.turn(1);
+	
+	
+	
+	
+	bri.turn(1);
+}
 	}
 
 	// Variations:
