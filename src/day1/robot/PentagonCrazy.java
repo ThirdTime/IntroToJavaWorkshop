@@ -17,7 +17,7 @@ kennith.penDown();
 kennith.setPenColor(68, 238, 187);
 
 Robot bri = new Robot("mini");
-bri.moveTo(550, 275);
+bri.moveTo(540, 290);
 bri.setSpeed(10);
 bri.penDown();
 bri.setPenColor(68, 238, 187);
