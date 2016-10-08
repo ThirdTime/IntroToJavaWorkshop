@@ -21,7 +21,7 @@ Robot kennith = new Robot("batman");
 kennith.setX(800);
 kennith.setY(300);
 kennith.penDown();
-kennith.setPenColor(33, 44, 55);
+kennith.setPenColor(0,0,0);
 		// 12. Set the robot speed to 10
 kennith.setSpeed(3);
 		// 13. Make all the code below repeat 25 times
@@ -32,20 +32,21 @@ for (int i = 0; i < 25; i++) {
 		kennith.turn(360/8);
 			// 3. Move the robot 64 pixels
 kennith.move(64);
-			kennith.setPenColor(230, 0, 0);
+			kennith.setPenColor(238,0,68);
 			// 4. Turn the robot 40 degrees to the LEFT. (Negative numbers will turn the robot counter-clockwise.)
 			kennith.turn(-40);
 			// 5. Move the robot the distance in the variable flameSize
 			kennith.move(flameSize);
 			// 6. Turn the robot 170 degrees
 			kennith.turn(170);
-			kennith.setPenColor(33,44,55);
+			kennith.setPenColor(238,0,68);
 
 			// 7. Move the robot the distance in the variable flameSize (again)
 			kennith.move(flameSize);
 			// 8. Turn the robot 64 degrees to the right
 kennith.turn(64);			
 // 9. Move the robot the distance in the variable baseSize
+kennith.setPenColor(0,0,0);
 			kennith.move(baseSize);
 			// 10. Check that your shape is the same as Figure 1. This is one arm of the ninja star.
 			
