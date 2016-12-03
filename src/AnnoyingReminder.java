@@ -13,7 +13,7 @@ public static void main(String[] args) {
 	
 	int intnum = Integer.parseInt(numastring);
 	
-	for(int tinyboy = 1; tinyboy <= intnum; tinyboy = tinyboy+1){
+	for(int tinyboy = 1; tinyboy <= intnum-1; tinyboy = tinyboy+1){
 		
 		JOptionPane.showMessageDialog(null, remind);
 		
