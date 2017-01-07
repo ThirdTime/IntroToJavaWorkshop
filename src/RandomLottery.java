@@ -7,8 +7,9 @@ public class RandomLottery {
 		Random generator= new Random();	
 		
 		int lotnum = generator.nextInt(100);
-		String onelinelot = Integer.toString(lotnum);
-		for(int repeat=1; repeat<=5;repeat= repeat+1){
+		String onelinelot = Integer.toString(lotnum)+" ";
+		for(int repeat=1; repeat<=4;repeat= repeat+1){
+			
 			onelinelot=onelinelot+generator.nextInt(100) + " ";
 		
 
